@@ -1,4 +1,3 @@
-import React from "react";
 import ChatBoard from "./components/ChatBoard";
 import "./styles.css";
 
