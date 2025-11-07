@@ -18,7 +18,7 @@ export default function ChatBoard() {
 
     try {
       const resp = await fetch(
-        "https://ai-chat-board-using-react.vercel.app/chat",
+        "https://ai-chat-board-using-react.vercel.app/api/chat",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
